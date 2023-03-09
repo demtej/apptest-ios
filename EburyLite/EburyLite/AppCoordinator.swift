@@ -14,8 +14,6 @@ final class AppCoordinator: ObservableObject {
     private let baseTabBar =  UITabBarController()
 
     func start() -> UIViewController {
-
-        return AuthenticationScreen().viewController()
         let homeCoordinator = HomeCoordinator(delegate: self, dataSource: WalletDataSourceImplementation(dataSource: ApiGetWalletsService(), localStorage: UserDefaultsWalletStorage()))
         let productsCoorinator = ProductCoordinator()
 

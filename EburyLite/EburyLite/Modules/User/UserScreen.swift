@@ -12,9 +12,21 @@ struct UserScreen: View, ViewControllableProtocol {
     var viewModel: UserViewModel
 
     var body: some View {
-        ZStack {
-            BackgroundView()
-            }
+        NavigationView{
+            List{
+                Section(header: Text("User Information")) {
+                    Text("Noel Gallager")
+                    Text("Guitarrist")
+                    Text("No Bank")
+                    Text("XXXXX")
+                }
+                Section(header: Text("App Details")) {
+                    Text("Design by Ebury")
+                    Text("Developed by @demitej")
+                }
+            }.navigationTitle("User")
         }
+    }
+
 }
 

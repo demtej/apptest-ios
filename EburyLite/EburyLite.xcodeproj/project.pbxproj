@@ -63,8 +63,6 @@
 		CC27384E29B94E7B00A1E922 /* DummyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27384D29B94E7B00A1E922 /* DummyListener.swift */; };
 		CC27385029B957FE00A1E922 /* TabBarItemRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27384F29B957FE00A1E922 /* TabBarItemRepresentable.swift */; };
 		CC27385129B957FE00A1E922 /* TabBarItemRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27384F29B957FE00A1E922 /* TabBarItemRepresentable.swift */; };
-		CC27385429B9597B00A1E922 /* AuthenticationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27385329B9597B00A1E922 /* AuthenticationScreen.swift */; };
-		CC27385529B9597B00A1E922 /* AuthenticationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27385329B9597B00A1E922 /* AuthenticationScreen.swift */; };
 		CC79579329B609A000A9A194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79579229B609A000A9A194 /* AppDelegate.swift */; };
 		CC79579529B609A000A9A194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79579429B609A000A9A194 /* SceneDelegate.swift */; };
 		CC79579F29B609A000A9A194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC79579E29B609A000A9A194 /* Assets.xcassets */; };
@@ -118,7 +116,6 @@
 		CC27384B29B94E4F00A1E922 /* Wallet+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wallet+Helpers.swift"; sourceTree = "<group>"; };
 		CC27384D29B94E7B00A1E922 /* DummyListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyListener.swift; sourceTree = "<group>"; };
 		CC27384F29B957FE00A1E922 /* TabBarItemRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemRepresentable.swift; sourceTree = "<group>"; };
-		CC27385329B9597B00A1E922 /* AuthenticationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationScreen.swift; sourceTree = "<group>"; };
 		CC79578F29B609A000A9A194 /* EburyLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EburyLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC79579229B609A000A9A194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC79579429B609A000A9A194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,7 +157,6 @@
 		CC2737DE29B6165C00A1E922 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				CC27385229B9596600A1E922 /* Auth */,
 				CC2737F329B6971900A1E922 /* CommonViews */,
 				CC2737E229B6197900A1E922 /* Home */,
 				CC2737E329B6198B00A1E922 /* Products */,
@@ -289,14 +285,6 @@
 				CC27384329B915D500A1E922 /* Double+Amount.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		CC27385229B9596600A1E922 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				CC27385329B9597B00A1E922 /* AuthenticationScreen.swift */,
-			);
-			path = Auth;
 			sourceTree = "<group>";
 		};
 		CC79578629B609A000A9A194 = {
@@ -457,7 +445,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC27380129B7634700A1E922 /* Wallet.swift in Sources */,
-				CC27385429B9597B00A1E922 /* AuthenticationScreen.swift in Sources */,
 				CC27380729B7FC1800A1E922 /* View+Utils.swift in Sources */,
 				CC27382C29B8C82900A1E922 /* UserScreen.swift in Sources */,
 				CC27381D29B8A4A500A1E922 /* UserDefaultsWalletStorage.swift in Sources */,
@@ -516,7 +503,6 @@
 				CC2737EC29B61C7300A1E922 /* HomeCoordinator.swift in Sources */,
 				CC7957C829B609F600A9A194 /* ViewControllable.swift in Sources */,
 				CC27380E29B80A4400A1E922 /* ProductViewModel.swift in Sources */,
-				CC27385529B9597B00A1E922 /* AuthenticationScreen.swift in Sources */,
 				CC27383129B8E1F900A1E922 /* UserViewModel.swift in Sources */,
 				CC27381B29B8A44B00A1E922 /* WalletDataSourceManager.swift in Sources */,
 				CC27384129B9154C00A1E922 /* RoundedCorner.swift in Sources */,
