@@ -11,7 +11,7 @@ When I started working on the project I decided to focus on the UI and architect
 ### UI design
 
 This was one of my priorities.
-The pulldown to refresh (in home screen) was added to the background view. This is a little bit strange in terms of UX (2 scrolls in the same screen) but its like I undertood the Figma. 
+The pulldown to refresh (in home screen) was added to the background view. This is a little bit strange in terms of UX (2 scrolls in the same screen) but its like I undertood the Figma.
 
 ### Mock API
 
@@ -49,7 +49,7 @@ Also, I created an AppCoordinator to coordinate the modules coordinators and app
 
  I chose SwiftUI for building the UI but UIKit to build the navigation.
 Reasons:
-- SwiftUI navigation is a WIP.
+- SwiftUI navigation contains breaking changes in every new SwiffUI version. I think apple is still working to have a solid piece. I prefer UIKit intead because provide us a better more scalable and isolated way to build navigation.
 - Non-UI code in SwiftUI screens is dirty code.
 
 #### I left some comments to help understand some technical decisions.
