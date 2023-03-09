@@ -1,0 +1,81 @@
+{
+  "wallets": [
+    {
+      "account_id": "3230bd7e-cb4c-553c-bcd3-607f3a3f8e20",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 198395.3700,
+        "currency": "USD",
+        "currency_description": "US Dollar"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    },
+    {
+      "account_id": "5259846c-1d53-d9e0-1865-9d3815c42c16",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 2608.1200,
+        "currency": "EUR",
+        "currency_description": "Euro"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    },
+    {
+      "account_id": "5259846c-1d53-d9e0-1865-9d3815c42c17",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 2190.7600,
+        "currency": "GBP",
+        "currency_description": "British Pound"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    },
+    {
+      "account_id": "3230bd7e-cb4c-553c-bcd3-607f3a3f8e21",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 1.3700,
+        "currency": "BRZ",
+        "currency_description": "Brazilian Real"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    },
+    {
+      "account_id": "5259846c-1d53-d9e0-1865-9d3815c42c26",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 9878.9800,
+        "currency": "CAN",
+        "currency_description": "Canadian Dollar"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    },
+    {
+      "account_id": "5259846c-1d53-d9e0-1865-9d3815c42c27",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 220.120,
+        "currency": "CHN",
+        "currency_description": "Chinese Yuan"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    },
+    {
+      "account_id": "5259846c-1d53-d9e0-1865-9d3815c42c37",
+      "company_name": "Business Example LTD",
+      "amount": {
+        "amount": 1113.13,
+        "currency": "JPN",
+        "currency_description": "Japanese Yen"
+      },
+      "credit_debit_indicator": "Credit",
+      "datetime": "2022-08-08T15:44:45.294"
+    }
+  ]
+}
